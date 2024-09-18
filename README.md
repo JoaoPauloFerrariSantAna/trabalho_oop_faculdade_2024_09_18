@@ -1,5 +1,13 @@
 # Trabalho da faculdade (POO)
 
+Trabalho realizado em grupo para a P1.
+
+## Ferramentas
+
+### Linguagem
+
+- Python
+
 ## Membros
 
 - José Rodolfo Faustino Guimares Junior, 1994088
