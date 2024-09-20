@@ -1,3 +1,5 @@
+from Mercadoria import Mercadoria
+
 def main() -> int:
 
 	while(True):
