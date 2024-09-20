@@ -7,8 +7,5 @@ class Inventario:
 	def adicionarMercadoria(self, item: dict[str, str | float]) -> None:
 		self._inventario.append(item)
 	
-	def mostrarInventario(self) -> list[dict[str, str | float]]:
-		return self._inventario
-
-
-	inventario: Inventario = Inventario()
+	def mostrarInventario(self) -> None
+		print(self.inventario)
