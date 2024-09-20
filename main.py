@@ -1,5 +1,13 @@
 def main() -> int:
-	print("To work")
+
+	while(True):
+		nome = input("Nome do produto: ")
+		tipo = input("Tipo do produto: ")
+		peso = float(input("Peso do produto (gramas): "))
+		custo = float(input("Qual é o preço do produto? "))
+
+		mercadoria: Mercadoria = Mercadoria(nome, tipo, peso, custo)
+
 
 	return 0
 
