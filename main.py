@@ -5,9 +5,9 @@ def main() -> int:
 	inventario: Inventario = Inventario()
 
 	while(True):
-		op = input("Gostaria de [v]er itens que estão no inventário u [i]nseri-los? ")
+		op = input("Gostaria de [v]er items ou [a]dicionar? ")
 
-		if(op == 'i'):
+		if(op == 'a'):
 			nome = input("Nome do produto: ")
 			tipo = input("Tipo do produto: ")
 			peso = float(input("Peso do produto (gramas): "))
